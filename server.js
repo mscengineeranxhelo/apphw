@@ -13,7 +13,7 @@ app.get('/quit', function(req,res) {
   process.exit
 });
 
-// app.listen(PORT, () => console.log(`App listening on port ${PORT}`))
+app.listen(PORT, () => console.log(`App listening on port ${PORT}`))
 
 function stop() {
   server.close()
